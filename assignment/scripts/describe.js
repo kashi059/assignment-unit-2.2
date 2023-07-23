@@ -7,6 +7,8 @@
 
 
 // 0. WRITE YOUR DESCRIPTION HERE
+// (JOE)'We console log 'yes'' because number is equal to 1 then we have number ++ which adds 1 (incrementing upward) then we ask the question (if statement)
+//if number is greather than OR equal to 2 console.log "yes"
 // //EXAMPLE. We make a variable called number and set it to 1 as a number.
 // Then we increment the number variable. Number is now 2.
 // We check if number is greater than or equal to 2. 2 is equal to 2, so
@@ -26,7 +28,7 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
+// (Joe) it will log 'How do you do?' because name was set to 'Dane'. Then it was tested as the string 'Dane' is not the same as 'Mary'
 // 
 // 
 //
@@ -45,7 +47,7 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
+// (Joe) it will print 'duper' to the console because secret was over ridden to say dupper when 246 (the result of code * 2) was less than 250.
 // 
 // 
 //
@@ -70,8 +72,8 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// (Joe) it will print `You're a student on the West Coast!` + 'Welcome to Prime!' 
+// because the second and fourth statement aren't resulting in true.
 // 
 //
 
@@ -129,6 +131,9 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+//(Joe) in this code we have only set colorOne to pruple. you would need to return
+//after the 'purple'; and set colorTwo also to purple.
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -143,6 +148,9 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+//(JOE) the statement is actually probably safer because it is set as an or statement isntead of an and && statement.
+//but for the sake of connecting the statement above to the statement below that is what i see as wrong.
+
 /*
 let temp = 40;
 const time = 4;
@@ -155,7 +163,7 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
-
+//(Joe) the below code will log no entry because it is the first true statement 21 is <= 21
 /*
 let age = 21;
 const minAge = 21;
