@@ -47,7 +47,8 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// (Joe) it will print 'duper' to the console because secret was over ridden to say dupper when 246 (the result of code * 2) was less than 250.
+// (Joe) the log will print 'super' because the code stores a value of 246 which is less than 250, so the second code will not run
+//as the second line of code will not run
 // 
 // 
 //
@@ -72,9 +73,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// (Joe) it will print `You're a student on the West Coast!` + 'Welcome to Prime!' 
-// because the second and fourth statement aren't resulting in true.
-// 
+// (Joe) it will print `Welcome to Prime!`
+// it will do this because the thrid statemnt is true
+// but the others are not true as while isStudent is true the && statement requires that both parts are true
+// and the zip is less than 80000
+// the second statemnt isn't true becuse age is not less than 30
+// the fourth statement wont run becase it is an else statement and the code has already found its true statment 
 //
 
 //CODE
@@ -131,7 +135,7 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-//(Joe) in this code we have only set colorOne to pruple. you would need to return
+//(Joe) In the following code the colors red and blue are swapped, and you would need to return
 //after the 'purple'; and set colorTwo also to purple.
 
 /*
@@ -163,7 +167,8 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
-//(Joe) the below code will log no entry because it is the first true statement 21 is <= 21
+//(Joe) the below code will log no entry because it is the first true statement 21 is <= 21 
+//in order to log 'enter' as the intended purpose of this funciton the two console.log portions would need to be swapped
 /*
 let age = 21;
 const minAge = 21;
